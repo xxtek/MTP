@@ -207,7 +207,7 @@ install() {
     if [[ "$(uname -m)" != "x86_64" ]]; then
         build_mtproto
     else
-        wget https://raw.githubusercontent.com/sunpma/mtp/master/mtproto-proxy -O mtproto-proxy -q
+        wget https://raw.githubusercontent.com/xxtek/mtp/master/mtproto-proxy -O mtproto-proxy -q
         chmod +x mtproto-proxy
     fi
 }
